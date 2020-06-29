@@ -1,0 +1,85 @@
+ELECT * FROM `progressreport`
+SELECT * FROM `school`
+alter table school modify name char(20)
+alter table school add datejoin date
+SELECT * FROM `progressreport`
+SELECT * FROM `school`
+insert into school values('aryama', 'R', '7/3AH Pune', 11911409, 'aryama.dubey19@vit.edu', 2019/09/01)
+SELECT * FROM `school`
+SELECT * FROM `school`
+INSERT INTO school VALUES('webd','r','Mumbai', 11911360, 'riyap5033@gmail.com',"2000-09-09")
+SELECT * FROM `school`
+SELECT * FROM `school`
+insert into school values("Dhanshree","R", "Kalyan", 11911456, "dhanshree.19@vit.edu", "2001-03-18")
+insert into school values("Shruti","R", "Nashik", 11911896, "shruti.19@vit.edu", "2001-10-07")
+SELECT * FROM `school`
+SELECT * FROM `progressreport`
+insert into progressreport values(90, 9.5)
+SELECT * FROM `progressreport`
+insert into progressreport values(65,7.5)
+SELECT * FROM `progressreport`
+SELECT * FROM `school`
+update school set name="Riya"
+SELECT * FROM `school`
+update school set name="aryama" where GRno="11911409"
+SELECT * FROM `school`
+update school set name="Shruti" where GRno="11911896"
+SELECT * FROM `school`
+SELECT * FROM `school`
+update school set division="R" where GRno="11911360"
+SELECT * FROM `school`
+delete from school where name="Shruti"
+SELECT * FROM `school`
+SELECT name,GRno FROM school
+SELECT email FROM school WHERE name="aryama"
+SELECT * FROM school WHERE name="aryama"
+SELECT email FROM school WHERE name="aryama"
+SELECT * FROM school WHERE name="aryama"
+select name,GRno from school
+select email from school where name in (11911409,11911360)
+select email from school where GRno in(11911409,11911360)
+SELECT * FROM `school`
+SELECT * FROM `school`
+select * from school order by name
+SELECT * FROM `progressreport`
+SELECT count(marks2) from progressreport
+SELECT * FROM `progressreport`
+alter table progressreport add roll int(3)
+SELECT * FROM `progressreport`
+SELECT * FROM `school`
+SELECT * FROM `school`
+select max(GRno) from school
+SELECT * FROM `school`
+SELECT * FROM `progressreport`
+SELECT * FROM `school`
+alter table school add PRIMARY KEY(name)
+SELECT * FROM `school`
+SELECT * FROM `school`
+SELECT * FROM `school`
+SELECT * FROM `progressreport`
+insert into progressreport values(92, 9.5, 7)
+insert into progressreport values(94, 6.0, 32)
+SELECT * FROM `progressreport`
+SELECT * FROM `progressreport`
+delete from progressreport where marks2=65
+SELECT * FROM `progressreport`
+alter table progressreport add PRIMARY KEY(roll)
+SELECT * FROM `progressreport`
+SELECT * FROM `progressreport`
+insert into progressreport values(100, 10, 48)
+SELECT * FROM `progressreport`
+SELECT * FROM `progressreport`
+create database flipkart
+create table Users(UserID int(3), Username int(3))
+SELECT * FROM `orders`
+insert into orders values(47, 204)
+SELECT * FROM `orders`
+SELECT * FROM `users`
+insert into users values(15, 26)
+SELECT * FROM `users`
+alter table users add PRIMARY KEY(UserID)
+SELECT * FROM `users`
+SELECT * FROM `orders`
+alter table orders add PRIMARY KEY(OrderID)
+Expand Requery Edit Explain Profiling Bookmark Database : flipkart Queried time : 15:29:22
+SELECT * FROM `orders`

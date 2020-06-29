@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+    body{
+      margin:0;
+    }
+    #square{
+      height:100px;
+      width:100px;
+      background-color:red;
+    }
+  #circle{
+    border-radius:100px;
+    height:100px;
+    width:100px;
+    background-color:yellow;
+  }
+  #rectangle{
+    height:150px;
+    width:100px;
+    background-color:blue;
+  }
+  </style>
+  </head>
+  <body>
+    <div id="s1">
+      <h3>java</h3>
+      </div>
+      <div id="square">
+      </div>
+      <div id="circle">
+      </div>
+      <div id="rectangle">
+        </div>
+      <button id="toggle">
+<h3>Click me</h3>
+      </button>
+    <script type="text/javascript">
+      document.getElementById("toggle").onclick=function(){
+        document.getElementById("s1").innerHTML="Hello there!";
+        document.getElementById("s1").style.color="red"
+        document.getElementById("s1").style.backgroundColor="yellow"
+      document.getElementById("s1").style.padding="10%"
+        document.getElementById("s1").style.fontSize="45px"
+       document.getElementById("square").style.display="none"  }
+      //  document.getElementById("circle").onclick=function(){
+      //    document.getElementById("circle").style.display="none"  }
+    //  document.getElementById("rectangle").onclick=function(){
+      //  document.getElementById("rectangle").style.display="none"}
+  //  document.getElementById("toggle").onclick=function(){
+    //  document.getElementById("square").style.display="block"
+    //  document.getElementById("circle").style.display="block"
+    //  document.getElementById("rectangle").style.display="block"}
+    //  var num=5;
+    //  var name='xyz'
+      //alert(num*num+1)
+    //  var a1=new Array()
+    //  a1[0]='Hello';
+  //    a1[1]=12;
+  //    a1[2]='L'
+    //  a1.push('IEEE')
+    //  a2=a1.slice(0,2);
+      //alert(a2)
+      //console.log(a1)
+  //    var number= Math.floor(Math.random()*10+0);
+    //  alert(number)
+    var value
+    document.getElementById("enter").onclick=function(){
+      alert(document.getElementById("enter").value)
+    }
+
+    </script>
+    <input type="number" id="enter" >
+<button>Click here</button>
+  </body>
+  </html>

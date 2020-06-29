@@ -1,0 +1,72 @@
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size:2.5rem;
+  font-weight:bold;
+}
+.nav-item{
+  padding:0px 18px;
+}
+#title{
+background-color: #ff4c68;
+}
+.container-fluid{
+  padding-top: 5px;
+  padding: 2% 20%;
+}
+.rotateimg180 {
+  transform: rotate(45deg);
+}
+h1{
+  font-size:3rem;
+  line-height:1.5;
+  color: white;
+  font-weight: bolder;
+}
+#features{
+  padding:7% 15%;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef1872;
+  padding-bottom: 20px;
+}
+.icon2{
+  color: #ef1872;
+  padding-bottom: 20px;
+}
+.icon3{
+  color: #ef1872;
+  padding-bottom: 20px;
+}
+.icon:hover{
+  color: #8f8f8f;
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef1872;
+  color: #fff;
+
+}
+
+.test{
+  border-radius: 100%;
+  margin: 20px;
+  width: 20%;
+}
+#press{
+  background-color: #ef1872;
+  color: #fff;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 20px 50px;
+}

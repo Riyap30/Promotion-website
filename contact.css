@@ -1,0 +1,309 @@
+#title{
+  background-image: url(
+"https://www.bridgejewellers.com/wp-content/uploads/2019/09/contact.png");
+background-size: 100% 100%;
+margin: 0px 0px 0px 0px;
+height: 600px;
+padding-top:12px;
+background-repeat: no-repeat;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  background-color: #000000;
+
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size:2.5rem;
+  font-weight:bold;
+}
+.nav-item{
+  padding:0px 18px;
+}
+.container-fluid{
+  padding-top: 5px;
+  padding: 0.5% 20%;
+  padding-right: 20%;
+}
+.info{
+  width: 45%;
+  text-align: left;
+  font-size: 1.5rem;
+  background-color: #b0e0e6;
+  color: #00000;
+}
+#info{
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  background-color: #000;
+  color: #00000;
+}
+.container
+h1 {
+  padding-left: 95px;
+  font-family: "Gill Sans", sans-serif;
+ margin: 0 0 10px 0;
+ font-size: 42px;
+ font-weight: 700;
+ line-height: 56px;
+color: #000000;
+
+}
+ h2 {
+   font-size: 95px;
+   padding-left: 100px;
+  font-family: "Gill Sans", sans-serif;
+color: #000000;
+
+  margin-bottom: 35px;
+}
+.col-md-d{
+  padding-left: 10px;
+}
+.feature-box {
+  font-size: 15px;
+    color: #1bac91;
+  margin-left: 60px;
+}
+.paddingTB60 {
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.container-contact100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: rgba(132,106,221,0.9);
+}
+
+h1 {
+  padding-left: 10px;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    color: #000;
+
+}
+.site-heading h3{
+    font-size : 40px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.border {
+    background: #e1e1e1;
+    height: 1px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    color: #000;
+}
+
+h3 {
+    line-height: 26px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+ h4 { font-size: 19px;
+     letter-spacing: 0px;
+     font-weight: 600;
+     font-style: normal;
+     color: #000;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    color: #494949;
+}
+
+
+a {
+    color: #494949;
+}
+
+.capital {
+    text-transform:uppercase;
+}
+
+
+i {
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    line-height: 0px;
+}
+#info2{
+  width: 100%;
+  height: 10%;
+  text-align: left;
+  font-size: 1.5rem;
+  background-color: #fff;
+  color: #000;
+}
+#footer {
+  background: black;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #0c1817;
+  border-bottom: 1px solid #18302c;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #1c3733;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #1bac91;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #4ae3c6;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #34dfbf;
+}
+
+#footer .footer-top .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px 0 0 4px;
+}
+
+#footer .footer-top .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 110px);
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -4px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #1bac91;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+  background: #14806c;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
